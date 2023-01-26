@@ -1,0 +1,123 @@
+.dednftstakingContainer {
+  background: url("../../assets/images/dedBackgroundIMG.png") !important;
+  background-size: cover !important;
+  background-position: 50% !important;
+}
+
+.dedCardIMG {
+  width: 100%;
+  height: 350px;
+}
+
+.nftContainer {
+  gap: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+}
+
+.nftPanel {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.nftSplitter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.nftGrid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 300px;
+  gap: 20px;
+}
+
+
+/* Customize antd Notification*/
+.ant-notification-notice {
+  border-radius: 10px !important;
+  margin-top: 35%;
+}
+
+.ant-notification-notice-message {
+  font-weight: 500 !important;
+  font-size: 15px !important;
+  color: rgb(23, 156, 23) !important;
+  border-bottom: 1px solid rgba(235, 234, 234, 0.6) !important;
+}
+
+/* Customize antd Notification*/
+.ant-modal-content {
+  margin-top: 10% !important;
+  border-radius: 10px !important;
+}
+
+.ant-modal-confirm-info .ant-modal-confirm-body>.anticon {
+  color: rgb(245, 127, 43) !important;
+  font-size: 25px !important;
+}
+
+.ant-modal-confirm-title {
+  padding-top: 1% !important;
+}
+
+.ant-btn-primary {
+  background-color: rgb(46, 170, 46) !important;
+  border: none !important;
+  border-radius: 7px !important;
+}
+
+.nothingUnStakedErrorIMG,
+.nothingStakedErrorIMG {
+  width: 40%;
+}
+
+.nothingSymbol {
+  width: 100px !important;
+}
+
+@font-face {
+  font-family: Magical;
+  src: url("../../assets/fonts/Chewy.ttf") format("woff"), url("../../assets/fonts/Chewy.ttf") format("truetype");
+}
+
+@media (max-width: 600px) {
+  .dedCardIMG {
+    width: 100%;
+  }
+
+  .errorContainer {
+    text-align: center;
+    margin-left: 12%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .doodCardIMG {
+    width: 100%;
+  }
+}
+
+@media (max-width: 450px) {
+  .description2  {
+  font-size: 13px !important;
+}
+  .doodCardIMG {
+    width: 100%;
+    height: 200px !important;
+  }
+}
