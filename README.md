@@ -23,5 +23,4 @@ At present, we officially aim to support the last two versions of the following 
 ##### Social Media
 
 Twitter: <https://twitter.com/SpaceCatsSGB>
-Github: <https://github.com/DOODCAT/Doodcats-Dapp>
 Discord: <https://discord.gg/gUYSw7ZB7R>
